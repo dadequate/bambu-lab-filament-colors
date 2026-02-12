@@ -1,73 +1,57 @@
 # Bambu Lab Filament Colors for macOS 🎨
 
-This repository provides a **macOS color palette** for all Bambu Lab PLA filament colors, including the **PLA Wood series**, **Basic series**, and **Gradient basics**. Use it in your favorite design tools like Xcode, Sketch, or any app that uses the macOS system color picker.
+A macOS `.clr` color palette generated from **Bambu Lab’s published filament hex-code tables** (where available), plus the **PLA Wood series**.
 
-## 📂 What's Included
+This is meant to be practical: drop the palette into `~/Library/Colors/` and it shows up anywhere macOS uses the system color picker (Xcode, Sketch, Affinity, etc.).
 
-* `bambu_clr.m` – Objective-C script that generates the `.clr` file.
-* `Bambu Lab PLA Colors.clr` – Precompiled macOS color palette.
+## What’s in this repo
 
-## 🎯 Color Coverage
+- `bambu_filament_colors.m` — Objective‑C generator that writes the `.clr` file into your user Colors folder.
+- `Bambu Lab Filament Colors.clr` — (Optional) prebuilt palette file, if you include it in releases.
+- `colors.json` — the raw name/hex list used by the generator.
 
-Includes:
+## Current coverage
 
-* Matte
-* Silk
-* Metal
-* CF (Carbon Fiber)
-* Marble
-* Glow
-* Galaxy
-* Wood Series (Black Walnut, Rosewood, Clay Brown, Classic Birch, White Oak, Ochre Yellow)
-* Basic Colors (White, Black, Red, Yellow, Blue, Green, Orange, Purple, Gray)
-* Gradient Basics (Blue, Green, Yellow, Orange, Purple)
+Included (from Bambu Lab hex-code tables + prior PLA set):
 
-* (more coming soon)
+- **PLA Basic**
+- **PLA Matte**
+- **PLA Tough+**
+- **PLA Translucent**
+- **PLA‑CF**
+- **PETG‑CF**
+- **ABS**
+- **TPU 90A**
+- **PLA Silk Multi‑Color** (partial sample in `colors.json` — add more if you want every variant)
+- **PLA Wood** (manual / based on Bambu’s wood series colors used earlier)
 
-## 🚀 How to Use
+> Note: Not every filament family on the store has a published “Hex Code Table” PDF. If Bambu publishes more, add them to `colors.json` and regenerate.
 
-### Option 1: Use Precompiled `.clr`
+## Install (prebuilt `.clr`)
 
-1. Download `Bambu Lab PLA Colors.clr`.
-
-2. Move it to your macOS colors folder:
-
+1. Copy `Bambu Lab Filament Colors.clr` into:
    ```bash
    ~/Library/Colors/
    ```
+2. Open any app’s color picker → **Color Palettes** → select **Bambu Lab Filament Colors**.
 
-3. Open BambuStudio, click the color swatch next to filament. (Works in any macOS app using the color picker, e.g., TextEdit, Pages).
-
-4. Go to the **Color Palettes** tab and select **Bambu Lab PLA Colors**.
-
----
-
-### Option 2: Build It Yourself
-
-1. Clone this repo:
-
-   ```bash
-   git clone https://github.com/yourusername/bambu-lab-pla-colors.git
-   cd bambu-lab-pla-colors
-   ```
-
-2. Compile and run:
-
-   ```bash
-   clang -framework Foundation -framework AppKit -o bambu_clr bambu_clr.m
-   ./bambu_clr
-   ```
-
-The palette will be generated at:
+## Build it yourself
 
 ```bash
-~/Library/Colors/Bambu Lab PLA Colors.clr
+clang -framework Foundation -framework AppKit -o bambu_colors bambu_filament_colors.m
+./bambu_colors
 ```
 
-## 📦 Also Available On
+Output:
+```bash
+~/Library/Colors/Bambu Lab Filament Colors.clr
+```
 
-* **MakerWorld** \[([https://makerworld.com/en/models/1346953-bambu-lab-pla-colors-for-macos#profileId-1388737](https://makerworld.com/en/models/1346953-bambu-lab-pla-colors-for-macos#profileId-1388737))]
+## Personal use
 
-## 🛠️ License
+This is intended for personal use. Filament names and branding belong to their respective owners.
 
-MIT License. Free to use and modify.
+## Links
+
+- Repo: https://github.com/dadequate/bambu-lab-filament-colors
+- Maine Pottery Co.: https://mainepottery.com
