@@ -1,5 +1,8 @@
 # Bambu Lab Filament Colors for macOS 🎨
 
+<img width="760" height="1245" alt="Screenshot 2026-02-12 at 10 56 14 AM" src="https://github.com/user-attachments/assets/b3f2de8f-ec6c-4971-bee3-e232a58bd29d" />
+
+
 A macOS `.clr` color palette generated from **Bambu Lab’s published filament hex-code tables** (where available), plus the **PLA Wood series**.
 
 This is meant to be practical: drop the palette into `~/Library/Colors/` and it shows up anywhere macOS uses the system color picker (Xcode, Sketch, Affinity, etc.).
