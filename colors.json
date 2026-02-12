@@ -1,0 +1,393 @@
+{
+  "palette": "Bambu Lab Filament Colors",
+  "colors": [
+    {
+      "name": "PLA Basic \u2014 Jade White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "PLA Basic \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "PLA Basic \u2014 Red",
+      "hex": "#C12E1F"
+    },
+    {
+      "name": "PLA Basic \u2014 Blue",
+      "hex": "#0A2989"
+    },
+    {
+      "name": "PLA Basic \u2014 Gray",
+      "hex": "#8E9089"
+    },
+    {
+      "name": "PLA Basic \u2014 Bambu Green",
+      "hex": "#00AE42"
+    },
+    {
+      "name": "PLA Basic \u2014 Mistletoe Green",
+      "hex": "#3F8E43"
+    },
+    {
+      "name": "PLA Basic \u2014 Cyan",
+      "hex": "#0086D6"
+    },
+    {
+      "name": "PLA Basic \u2014 Sunflower Yellow",
+      "hex": "#FEC600"
+    },
+    {
+      "name": "PLA Basic \u2014 Indigo Purple",
+      "hex": "#482960"
+    },
+    {
+      "name": "PLA Basic \u2014 Cocoa Brown",
+      "hex": "#6F5034"
+    },
+    {
+      "name": "PLA Basic \u2014 Hot Pink",
+      "hex": "#F5547C"
+    },
+    {
+      "name": "PLA Basic \u2014 Pumpkin Orange",
+      "hex": "#FF9016"
+    },
+    {
+      "name": "PLA Matte \u2014 Ivory White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "PLA Matte \u2014 Bone White",
+      "hex": "#CBC6B8"
+    },
+    {
+      "name": "PLA Matte \u2014 Desert Tan",
+      "hex": "#E8DBB7"
+    },
+    {
+      "name": "PLA Matte \u2014 Latte Brown",
+      "hex": "#D3B7A7"
+    },
+    {
+      "name": "PLA Matte \u2014 Caramel",
+      "hex": "#AE835B"
+    },
+    {
+      "name": "PLA Matte \u2014 Terracotta",
+      "hex": "#B15533"
+    },
+    {
+      "name": "PLA Matte \u2014 Dark Brown",
+      "hex": "#7D6556"
+    },
+    {
+      "name": "PLA Matte \u2014 Dark Chocolate",
+      "hex": "#4D3324"
+    },
+    {
+      "name": "PLA Matte \u2014 Lilac Purple",
+      "hex": "#AE96D4"
+    },
+    {
+      "name": "PLA Matte \u2014 Sakura Pink",
+      "hex": "#E8AFCF"
+    },
+    {
+      "name": "PLA Matte \u2014 Mandarin Orange",
+      "hex": "#F99963"
+    },
+    {
+      "name": "PLA Matte \u2014 Lemon Yellow",
+      "hex": "#F7D959"
+    },
+    {
+      "name": "PLA Matte \u2014 Plum",
+      "hex": "#950051"
+    },
+    {
+      "name": "PLA Matte \u2014 Scarlet Red",
+      "hex": "#DE4343"
+    },
+    {
+      "name": "PLA Matte \u2014 Dark Red",
+      "hex": "#BB3D43"
+    },
+    {
+      "name": "PLA Matte \u2014 Dark Green",
+      "hex": "#68724D"
+    },
+    {
+      "name": "PLA Matte \u2014 Grass Green",
+      "hex": "#61C680"
+    },
+    {
+      "name": "PLA Matte \u2014 Apple Green",
+      "hex": "#C2E189"
+    },
+    {
+      "name": "PLA Matte \u2014 Ash Gray",
+      "hex": "#9B9EA0"
+    },
+    {
+      "name": "PLA Matte \u2014 Marine Blue",
+      "hex": "#0078BF"
+    },
+    {
+      "name": "PLA Matte \u2014 Charcoal",
+      "hex": "#000000"
+    },
+    {
+      "name": "PLA Tough+ \u2014 White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Gray",
+      "hex": "#AFB1AE"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Silver",
+      "hex": "#959698"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Yellow",
+      "hex": "#F4D53F"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Cyan",
+      "hex": "#009BD8"
+    },
+    {
+      "name": "PLA Tough+ \u2014 Orange",
+      "hex": "#DC3A27"
+    },
+    {
+      "name": "PLA Translucent \u2014 Teal",
+      "hex": "#009FA1"
+    },
+    {
+      "name": "PLA Translucent \u2014 Light Jade",
+      "hex": "#96D8AF"
+    },
+    {
+      "name": "PLA Translucent \u2014 Blue",
+      "hex": "#0047BB"
+    },
+    {
+      "name": "PLA Translucent \u2014 Mellow Yellow",
+      "hex": "#F5DBAB"
+    },
+    {
+      "name": "PLA Translucent \u2014 Purple",
+      "hex": "#8344B0"
+    },
+    {
+      "name": "PLA Translucent \u2014 Cherry Pink",
+      "hex": "#F5B6CD"
+    },
+    {
+      "name": "PLA Translucent \u2014 Orange",
+      "hex": "#F74E02"
+    },
+    {
+      "name": "PLA Translucent \u2014 Ice Blue",
+      "hex": "#B8CDE9"
+    },
+    {
+      "name": "PLA Translucent \u2014 Red",
+      "hex": "#B50011"
+    },
+    {
+      "name": "PLA Translucent \u2014 Lavender",
+      "hex": "#B8ACD6"
+    },
+    {
+      "name": "PLA-CF \u2014 Burgundy Red",
+      "hex": "#951E23"
+    },
+    {
+      "name": "PLA-CF \u2014 Iris Purple",
+      "hex": "#69398E"
+    },
+    {
+      "name": "PLA-CF \u2014 Matcha Green",
+      "hex": "#5C9748"
+    },
+    {
+      "name": "PLA-CF \u2014 Jeans Blue",
+      "hex": "#6E88BC"
+    },
+    {
+      "name": "PLA-CF \u2014 Royal Blue",
+      "hex": "#2842AD"
+    },
+    {
+      "name": "PLA-CF \u2014 Lava Gray",
+      "hex": "#4D5054"
+    },
+    {
+      "name": "PLA-CF \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "PETG-CF \u2014 Brick Red",
+      "hex": "#9F332A"
+    },
+    {
+      "name": "PETG-CF \u2014 Violet Purple",
+      "hex": "#583061"
+    },
+    {
+      "name": "PETG-CF \u2014 Indigo Blue",
+      "hex": "#324585"
+    },
+    {
+      "name": "PETG-CF \u2014 Malachite Green",
+      "hex": "#16B08E"
+    },
+    {
+      "name": "PETG-CF \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "PETG-CF \u2014 Titan Gray",
+      "hex": "#565656"
+    },
+    {
+      "name": "ABS \u2014 White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "ABS \u2014 Desert Tan",
+      "hex": "#E8DBB7"
+    },
+    {
+      "name": "ABS \u2014 Olive",
+      "hex": "#789D4A"
+    },
+    {
+      "name": "ABS \u2014 Azure",
+      "hex": "#489FDF"
+    },
+    {
+      "name": "ABS \u2014 Navy Blue",
+      "hex": "#0C2340"
+    },
+    {
+      "name": "ABS \u2014 Blue",
+      "hex": "#0A2CA5"
+    },
+    {
+      "name": "ABS \u2014 Tangerine Yellow",
+      "hex": "#FFC72C"
+    },
+    {
+      "name": "ABS \u2014 Orange",
+      "hex": "#FF6A13"
+    },
+    {
+      "name": "ABS \u2014 Red",
+      "hex": "#D32941"
+    },
+    {
+      "name": "ABS \u2014 Purple",
+      "hex": "#AF1685"
+    },
+    {
+      "name": "ABS \u2014 Silver",
+      "hex": "#87909A"
+    },
+    {
+      "name": "ABS \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "ABS \u2014 Bambu Green",
+      "hex": "#00AE42"
+    },
+    {
+      "name": "TPU 90A \u2014 Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "TPU 90A \u2014 White",
+      "hex": "#FFFFEE"
+    },
+    {
+      "name": "TPU 90A \u2014 Grape Jelly",
+      "hex": "#D6ABFF"
+    },
+    {
+      "name": "TPU 90A \u2014 Crystal Blue",
+      "hex": "#7EB4E1"
+    },
+    {
+      "name": "TPU 90A \u2014 Cocoa Brown",
+      "hex": "#5C4738"
+    },
+    {
+      "name": "TPU 90A \u2014 Quicksilver",
+      "hex": "#9EA2A2"
+    },
+    {
+      "name": "TPU 90A \u2014 Blaze (Light)",
+      "hex": "#F1AAA8"
+    },
+    {
+      "name": "TPU 90A \u2014 Blaze (Dark)",
+      "hex": "#D21B3C"
+    },
+    {
+      "name": "TPU 90A \u2014 Frozen (Light)",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "TPU 90A \u2014 Frozen (Blue)",
+      "hex": "#40B6E4"
+    },
+    {
+      "name": "PLA Silk Multi-Color \u2014 Mystic Magenta (Purple)",
+      "hex": "#720062"
+    },
+    {
+      "name": "PLA Silk Multi-Color \u2014 Mystic Magenta (Green)",
+      "hex": "#3A913F"
+    },
+    {
+      "name": "PLA Silk Multi-Color \u2014 Phantom Blue (Blue)",
+      "hex": "#00629B"
+    },
+    {
+      "name": "PLA Silk Multi-Color \u2014 Phantom Blue (Black)",
+      "hex": "#000000"
+    },
+    {
+      "name": "PLA Wood \u2014 Black Walnut",
+      "hex": "#4F3F24"
+    },
+    {
+      "name": "PLA Wood \u2014 Rosewood",
+      "hex": "#4C241C"
+    },
+    {
+      "name": "PLA Wood \u2014 Clay Brown",
+      "hex": "#995F11"
+    },
+    {
+      "name": "PLA Wood \u2014 Classic Birch",
+      "hex": "#918669"
+    },
+    {
+      "name": "PLA Wood \u2014 White Oak",
+      "hex": "#D6CCA3"
+    },
+    {
+      "name": "PLA Wood \u2014 Ochre Yellow",
+      "hex": "#C98935"
+    }
+  ]
+}
